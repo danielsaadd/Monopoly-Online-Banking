@@ -1,0 +1,170 @@
+/* .create-user-forms {
+  display: flex;
+  height: 200px;
+  width: 60%;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .create-user-label {
+  display: flex;
+  height: 200px;
+  width: 60%;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+} */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-img {
+  width: 100%;
+  height: 450px;
+  background-image: url("https://i.ebayimg.com/images/g/~G0AAOSwNwxiA9UX/s-l1600.jpg");
+  /* background-size: cover; */
+  background-attachment: fixed;
+  /* opacity: 0.6; */
+  /* position: relative; */
+  /* padding-top: -100px; */
+  background-position: center 670px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 30px;
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+}
+
+.header-img h1 {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  font-size: 90px;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+}
+
+.create-user-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.create-user-background {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvuE1WxBYcbmX_zrUpw6NOcEm4n1WUeGtiw&usqp=CAU");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-user-div img {
+  margin: 30px;
+}
+
+.create-user-div input {
+  margin-bottom: 30px;
+}
+
+.create-user-div button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.create-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-user-item {
+  margin-bottom: 10px;
+}
+
+.bank-webpage-format {
+  display: flex;
+  justify-content: left;
+}
+
+aside {
+  flex: 0 0 auto;
+  width: 30%;
+  height: 80%;
+  background-color: rgb(7, 51, 7);
+  color: white;
+}
+
+section {
+  margin: 0 20px;
+  width: 60%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-padding-top {
+  padding-top: 25px;
+}
+
+.inline-li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.li-box {
+  border: 2px solid rgb(220, 219, 219);
+  background-color: rgb(248, 248, 248);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.transaction-form-box {
+  border: 2px solid rgb(220, 219, 219);
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.transaction-form-box select {
+  margin: 10px;
+}
+
+.transaction-form-box input {
+  margin: 10px;
+}
+
+.transaction-form-box label {
+  margin-left: 30px;
+}
+
+.transaction-form-box button {
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: rgb(7, 51, 7);
+  color: white;
+}
+
+.green-money {
+  color: rgb(0, 92, 0);
+}
